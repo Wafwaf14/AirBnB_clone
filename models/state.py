@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""State class iinheriting from BaseModel mum
+"""
+User class
 """
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """our class State"""
+    """
+    State class
+    Attributes:
+    name: State's name
+    """
     name = ""

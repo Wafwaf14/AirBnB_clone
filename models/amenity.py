@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""Amenity class inheriting from BaseModel mum
+"""
+User class
 """
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """class Amenity"""
+    """
+    Amenity class
+    Attributes:
+    name: Amenity's name
+    """
     name = ""

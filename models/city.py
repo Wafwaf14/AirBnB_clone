@@ -1,10 +1,16 @@
 #!/usr/bin/python3
-"""City class inheriting from BaseModel mum
+"""
+User class
 """
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """our class City"""
-    state_id = ""
+    """
+    City class
+    Attributes:
+    name: State's name
+    state_id: state id
+    """
     name = ""
+    state_id = ""
