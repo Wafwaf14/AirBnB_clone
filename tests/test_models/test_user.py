@@ -1,13 +1,20 @@
 #!/usr/bin/python3
 """
-let's test the user class
+Test cases for User class.
 """
 import unittest
+from models.user import User
+from models.base_model import BaseModel
 
 
-class TestUser(unittest.TestCase):
-    """Test class"""
+class testUser(unittest.TestCase):
+    """
+    User test class.
+    """
 
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_user(self):
+        """
+        Testing instances.
+        """
+        inst = User()
+        self.assertTrue(isinstance(inst, User))
