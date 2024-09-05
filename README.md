@@ -65,7 +65,5 @@ EOF  all  create  destroy  help  quit  show  update
 ## Bugs
 No known bugs at this time.
 
-## Authors
-
 ## License
 Public Domain. No copywrite protection.
