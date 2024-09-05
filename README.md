@@ -12,7 +12,6 @@ This is the 4th version of our AirBnB clone project. We will be using python3, R
 * [Usage](#usage)
 * [Examples of use](#examples-of-use)
 * [Bugs](#bugs)
-* [Authors](#authors)
 * [License](#license)
 
 ## Environment
